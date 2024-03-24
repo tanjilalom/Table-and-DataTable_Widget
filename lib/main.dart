@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: DataTable(sortColumnIndex: 1, sortAscending: true, columns: [
+        child: DataTable(sortColumnIndex: 0, sortAscending: true, columns: [
           DataColumn(
             label: Text("Name"),
           ),
