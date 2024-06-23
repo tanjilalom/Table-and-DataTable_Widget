@@ -6,7 +6,7 @@ Widget Data(name) {
     child: Text(
       name,
       textAlign: TextAlign.center,
-      style: TextStyle(fontWeight: FontWeight.w500, fontSize: 18),
+      style: TextStyle(fontWeight: FontWeight.w400, fontSize: 16),
     ),
   );
 }
